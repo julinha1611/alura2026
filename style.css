@@ -1,0 +1,86 @@
+/* Reset básico e fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f9; /* Fundo suave para destacar o conteúdo */
+    color: #333;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que o banner respeite o arredondamento */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner Superior */
+.banner {
+    background-color: #1a3a5a;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+/* Área do Conteúdo */
+.content-area {
+    padding: 30px;
+}
+
+/* Ajuste Proporcional da Logo */
+img {
+    display: block;
+    width: 100%;       /* Ocupa a largura do container */
+    max-width: 450px;  /* Tamanho máximo equilibrado */
+    height: auto;      /* Mantém a proporção */
+    margin: 0 auto 30px auto; /* Centraliza e afasta do texto */
+    border-radius: 4px;
+    border: 1px dashed #ccc; /* Estilo para quando a imagem não carrega */
+    padding: 10px;
+    color: #555;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Post do Blog */
+.post h2 {
+    color: #1a3a5a;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.autor {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.autor strong {
+    color: #333;
+}
+
+.conteudo {
+    font-size: 1.1rem;
+    color: #444;
+}
